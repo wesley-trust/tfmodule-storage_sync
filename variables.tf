@@ -42,3 +42,9 @@ variable "provision_private_link" {
   type        = bool
   default     = false
 }
+
+variable "resource_storage_sync_quota" {
+  description = "Desired quota (in GB) for the provisioned resources"
+  type        = string
+  default     = "5120"
+}

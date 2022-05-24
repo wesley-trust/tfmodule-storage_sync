@@ -9,6 +9,7 @@ resource "azurerm_storage_account" "account" {
 resource "azurerm_storage_share" "share" {
   name                 = local.resource_storage_share_name
   storage_account_name = azurerm_storage_account.account.name
+  quota                = var.resource_storage_sync_quota
 
   acl {
     id = "GhostedRecall"
