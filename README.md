@@ -8,4 +8,4 @@ Select a stage to view in Azure DevOps. *Note that 'Skipped' stages in the last 
 ### Testing Stages
 | Unit Tests | Integration Tests |
 | :--------: | :---------------: |
-|            |                   |
+|     [![Build Status](https://dev.azure.com/wesleytrust/Terraform/_apis/build/status/Modules/Deployments/tfmodule-storage_sync?repoName=wesley-trust%2Ftfmodule-storage_sync&branchName=main&stageName=Unit)](https://dev.azure.com/wesleytrust/Terraform/_build/latest?definitionId=70&repoName=wesley-trust%2Ftfmodule-storage_sync&branchName=main)       |       [![Build Status](https://dev.azure.com/wesleytrust/Terraform/_apis/build/status/Modules/Deployments/tfmodule-storage_sync?repoName=wesley-trust%2Ftfmodule-storage_sync&branchName=main&stageName=Integration)](https://dev.azure.com/wesleytrust/Terraform/_build/latest?definitionId=70&repoName=wesley-trust%2Ftfmodule-storage_sync&branchName=main)            |
