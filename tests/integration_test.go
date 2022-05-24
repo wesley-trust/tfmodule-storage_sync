@@ -63,7 +63,7 @@ func TestApplySingleRegion_PrivateLink(t *testing.T) {
 
 	// Generate a random deployment name for the test to prevent a naming conflict
 	uniqueID := random.UniqueId()
-	testREF := "SingleRegion_PrivateLink"
+	testREF := "SingleRegion-PrivateLink" // Underscores are not supported for file shares
 	serviceDeployment := testREF + "-" + uniqueID
 
 	// Define variables
